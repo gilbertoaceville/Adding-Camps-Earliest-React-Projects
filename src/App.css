@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #20b2aa;
+  padding: 0 20px;
+  box-shadow: 0 2px 2px #008080;
+}
+
+.brand{
+  color: #0d122b;
+  text-shadow: 0 .2px .2px #101339;
+}
+
+.links ul li{
+  color: #0d122b;
+  text-shadow: 0 .2px .2px #101339;
+}
+
+.links ul li:hover{
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #000;
+}
+
+nav ul{
+  cursor: pointer;
+  user-select: none;
+}
+
+.camp-grid
+{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 20px;
+  grid-gap: 1em;
+}
+
+.card
+{
+  width: 200px;
+  box-shadow: 0 2px 2px #aaa;
+  border-radius: 4px;
+  height: fit-content;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.card img{
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #000;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  object-fit: cover;
+}
+
+.card h3{
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+  text-indent: 10px;
+  padding: 15px 0;
+}
+
+input{
+  display: block;
+  margin: 5px 0 20px 0;
+  width: 250px;
+  text-indent: 5px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #f1f1f1;
+}
+
+input::placeholder{
+  color: #000;
+  font-weight: 400;
+}
+
+.form{
+  background-color: #20b2aa;
+  width: 300px;
+  height: 180px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 13.7%;
+}
+
+button{
+  padding: 7px 5px;
+  border-radius: 4px;
+  background-color: #008080;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 2px #030;
+  color: #fff;
+  font-weight: 600;
+}
+
+.list{
+  position: absolute;
+  background-color: #fff;
+  width: fit-content;
+  height: 154px;
+  display: grid;
+  box-shadow: 0 2px 2px #aaa;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.list ul{
+  
+}
+
+.list ul li{
+  list-style: none;
+  /* margin: 15px 0; */
+  padding: 1em;
+}
+
+.list li:hover{
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.card-input{
+  width: 180px;
+  margin-left: 9px;
+  outline: none;
+  text-indent: 8px;
+}
+
+.buttons{
+  margin: 8px 10px;
+}
+
+sup{
+  vertical-align: super;
+}
+
+video{
+  width: 450px;
+  height: 200px;
+  outline: none;
+  object-fit: cover;
+}
