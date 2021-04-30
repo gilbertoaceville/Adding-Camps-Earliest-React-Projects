@@ -93,15 +93,6 @@ class App extends React.Component {
     }, 5000);
   };
 
-  // handleColorChange = e => {
-  //   if (e.which === 13) {
-  //     this.setState({
-  //       ...this.state,
-  //       bg: e.target.value
-  //     });
-  //   }
-  // };
-
   //setting index of each of the images
   settingIndex = (setindex, e) => {
     this.setState({
